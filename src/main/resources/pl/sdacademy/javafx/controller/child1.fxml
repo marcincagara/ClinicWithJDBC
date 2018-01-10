@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.sdacademy.javafx.controller.Child1Controller">
+    <Label text="Child 1 View"/>
+    <Button text="Go to Child 2" onAction="#goToChild2"/>
+</VBox>
